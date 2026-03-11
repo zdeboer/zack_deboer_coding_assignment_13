@@ -5,7 +5,7 @@ import { HeroImageProps } from './HeroImage.types';
 const HeroWrapper = styled.div<{ $backgroundImage: string; $disabled?: boolean }>`
   position: relative;
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
   height: 200px;
   background-image: ${({ $backgroundImage }) => `url(${$backgroundImage})`};
   background-size: cover;

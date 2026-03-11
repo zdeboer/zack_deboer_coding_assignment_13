@@ -19,6 +19,7 @@ RUN npm install -g serve
 
 COPY --from=build /deboer_zack_ui_garden/build ./build
 
+
 EXPOSE 8083
 
 CMD ["serve", "-s", "build", "-l", "8083"]
