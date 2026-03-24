@@ -44,9 +44,9 @@ run: docker rm deboer_zack_coding_assignment13
 
 # Github Actions
 
-## On every push and pull request, Github Actions runs:
+## On every push and pull request, Github Actions runs these actions:
 
-- rettier check
+- Prettier check
 - ESLint check
 - Tests
 - Build
